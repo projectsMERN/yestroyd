@@ -1,0 +1,240 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif; /* Professional, clean font */
+  background-color: #f4f4f9; /* Soft background for readability */
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3, h4 {
+  color: #34495e; /* Muted navy for a professional feel */
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header Styling */
+header {
+  background: #2c3e50; /* Darker, more serious tone for professionalism */
+  color: #ecf0f1;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Fredoka One', cursive; /* Still a playful touch */
+  font-size: 28px;
+  margin: 0;
+  color: #f39c12; /* Adds vibrancy for parents and children */
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header nav a {
+  color: #ecf0f1;
+  background-color: #34495e;
+  padding: 10px 20px;
+  border-radius: 5px; /* Subtle rounding for approachability */
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav a:hover {
+  background-color: #f39c12; /* Orange highlight for hover */
+  transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #74ebd5, #acb6e5); /* Balanced, calming gradient */
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.hero h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background: #f39c12;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #f1c40f;
+  transform: translateY(-5px); /* Floating button for interactivity */
+}
+
+/* Programs Section */
+.programs {
+  background-color: #fdfdfd; /* Clean, minimal background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.programs h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #34495e;
+  margin-bottom: 40px;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.program {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.program:hover {
+  transform: translateY(-10px);
+}
+
+.program h3 {
+  color: #f39c12; /* Subtle color that aligns with the brand */
+}
+
+.program p {
+  color: #555;
+}
+
+.program-link {
+  color: inherit; /* Keep the text color the same as the surrounding text */
+  text-decoration: none; /* Remove underline */
+}
+
+.program-link:hover {
+  text-decoration: underline; /* Optional: add underline on hover for accessibility */
+}
+
+/* Resources Section */
+.resources {
+  background-color: #ecf0f1;
+  padding: 50px 0;
+}
+
+.resources h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #34495e;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.resource {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.resource:hover {
+  transform: translateY(-10px);
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #fdfdfd;
+  padding: 50px 0;
+}
+
+.testimonials h2 {
+  color: #34495e;
+}
+
+.testimonial {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  color: #555;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #ecf0f1;
+  padding: 50px 0;
+}
+
+.contact form input, .contact form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 2px solid #f39c12;
+  background-color: #fff;
+}
+
+.contact form button {
+  background: #f39c12;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact form button:hover {
+  background: #f1c40f;
+}
+
+/* Footer */
+footer {
+  background: #34495e;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
